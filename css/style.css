@@ -1,0 +1,20 @@
+container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+iframe {
+    height: 80vh; /* לוקח 70 אחוז מגובה המסך הזמין */
+    aspect-ratio: 9 / 16; /* שומר על הפרופורציה של מובייל */
+    width: auto; /* נותן לרוחב להיקבע לפי הגובה */
+    border: none;
+    display: block;
+    margin: 0 auto; 
+    }
